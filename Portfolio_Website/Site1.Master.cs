@@ -11,12 +11,17 @@ namespace Portfolio_Website
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            switchActivePage();
+        }
 
-            switch(Page.Title)
+        //Changes which page is active on the navbar
+        private void switchActivePage()
+        {
+            switch (Page.Title)
             {
                 case "Home Page":
                     Home.Attributes.Add("class", "active");
-                break;
+                    break;
 
                 case "Contact":
                     Contact.Attributes.Add("class", "active");
