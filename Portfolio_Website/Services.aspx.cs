@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace Portfolio_Website
 {
-    public partial class Site1 : System.Web.UI.MasterPage
+    public partial class Services : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+
         }
     }
 }
