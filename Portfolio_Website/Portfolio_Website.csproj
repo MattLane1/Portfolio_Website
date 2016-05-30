@@ -100,7 +100,9 @@
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="Images\Cougar.png" />
     <Content Include="Images\Matt_1.jpg" />
+    <Content Include="Images\Pyrosoft_Screen.png" />
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>

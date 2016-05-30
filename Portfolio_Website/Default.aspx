@@ -2,13 +2,14 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <!-- Title !-->
-    <div class="container">
+    <div class="container text-center">
         <h1>Matthew Lanes Portfolio Page</h1>
     </div>
 
+
     <!-- Image of me !-->
-    <div class="container">
-        <img src="Images/Matt_1.jpg" class="img-rounded" alt="Matt" width="304" height="236">
+    <div class="container text-center">
+        <img src="Images/Matt_1.jpg" class="img-rounded" alt="Matt" width="404" height="336">
     </div>
 
     <!-- Page content section !-->

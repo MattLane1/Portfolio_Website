@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site2.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Portfolio_Website.Contact" EnableViewState="True" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="container">
+    <div class="container text-center">
         <!-- Title !-->
         <h1>Contact Me</h1>
         <!-- Contact me form !-->
