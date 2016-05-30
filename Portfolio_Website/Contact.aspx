@@ -1,8 +1,10 @@
-﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Portfolio_Website.Contact" EnableViewState="True" %>
+﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site2.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Portfolio_Website.Contact" EnableViewState="True" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="container">
+        <!-- Title !-->
         <h1>Contact Me</h1>
+        <!-- Contact me form !-->
         <div class="form-group">
             <label class="control-label" for="FirstNameTextBox">First Name</label>
             <asp:TextBox runat="server" CssClass="form-control" ID="FirstName" placeholder="First Name" required="true"></asp:TextBox>
@@ -23,8 +25,8 @@
             <label class="control-label" for="Message">Message</label>
             <asp:TextBox runat="server" TextMode="MultiLine" Columns="5" Rows="5" CssClass="form-control" ID="Message" placeholder="Your Message" required="true"></asp:TextBox>
         </div>
-        <asp:Button CssClass="btn-primary" Text="Send" runat="server" />
-
+        <a class="btn btn-danger btn-lg" id="CancelButton" href="Default.aspx">Cancel</a>
+        <asp:Button runat="server" CssClass="btn btn-success btn-lg" ID="SendButton" Text="Submit" OnClick="SendButton_Click" CausesValidation="true" />
     </div>
 
 </asp:Content>

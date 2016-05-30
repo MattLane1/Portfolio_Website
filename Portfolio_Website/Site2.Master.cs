@@ -1,9 +1,9 @@
 ﻿/*------------------------------------------------------------------------------
 
   @Author : Matthew Lane
-  @File Name : Site1.Master.cs
+  @File Name : Site2.Master.cs
   @Website Name : Portfolio_Website
-  @File Description : This is the first master page for my portfolio website
+  @Website Description : This is the second master page for my website
   
 ------------------------------------------------------------------------------*/
 
@@ -16,12 +16,12 @@ using System.Web.UI.WebControls;
 
 namespace Portfolio_Website
 {
-    public partial class Site1 : System.Web.UI.MasterPage
+    public partial class Site2 : System.Web.UI.MasterPage
     {
         //This event is called when the page is loaded
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+
         }
     }
 }

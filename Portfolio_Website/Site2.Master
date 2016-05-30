@@ -1,8 +1,7 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Portfolio_Website.Site1" %>
-
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="Portfolio_Website.Site2" %>
 <%@ Register Src="~/User_Controls/Navbar.ascx" TagName="Navbar" TagPrefix="bs3" %>
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html lang="en">
 <!-- Header -->
 <head runat="server">
@@ -17,7 +16,7 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-
+    <!-- Add in the nav bar from the Navbar class!-->
     <form id="form1" runat="server">
         <bs3:Navbar runat="server"></bs3:Navbar>
         <div>
@@ -25,9 +24,11 @@
             </asp:ContentPlaceHolder>
         </div>
     </form>
-    <!-- Java Section -->
+
+    <!-- JavaScript Section -->
     <script src="Scripts/jquery-2.2.3.min.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
 
 </body>
 </html>
+

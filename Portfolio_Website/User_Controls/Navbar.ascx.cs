@@ -5,11 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-/**
- * @author : Matthew Lane
- * @Date " May 26th, 2016
- * @version 0.0.1 - Added the SetActivePage method
- */ 
+
 
 namespace Lab_Two_Matthew_Lane
 {
