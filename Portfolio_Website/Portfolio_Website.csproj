@@ -82,9 +82,6 @@
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="ApplicationInsights.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="Projects.aspx" />
     <Content Include="scripts\app.js" />
     <None Include="scripts\jquery-2.2.3.intellisense.js" />
