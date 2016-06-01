@@ -28,7 +28,7 @@ namespace Portfolio_Website
         protected void SendButton_Click(object sender, EventArgs e)
         {
             //Temp Replace with actual code
-            Response.Redirect("Default.aspx");
+            Response.Redirect("Thankyou.aspx");
         }
     }
 }
